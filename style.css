@@ -138,8 +138,9 @@ table th{
 
 
 body{
-    background: url("IMAGES/tr.jpg") no-repeat center center fixed;
+    background: url("tr.jpg") no-repeat center center fixed;
     background-size: cover; /* l'image remplit tout l'écran */
     font-family: 'Segoe UI', sans-serif;
 }
+
 
