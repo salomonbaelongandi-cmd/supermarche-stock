@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    background:linear-gradient(to right,#1e3c72,#2a5298);
+    color:#333;
+}
+
+header{
+    background:#0f172a;
+    color:white;
+    padding:15px;
+    text-align:center;
+    font-size:22px;
+}
+
+nav{
+    background:#1e293b;
+    padding:10px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:10px 15px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
+
+.container{
+    width:90%;
+    max-width:900px;
+    margin:30px auto;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 10px 20px rgba(0,0,0,0.2);
+    animation:fadeIn 0.6s ease-in-out;
+}
+
+h2{
+    margin-bottom:20px;
+    color:#1e3c72;
+}
+
+input, select{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+
+button{
+    background:#1e3c72;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#2a5298;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+table th, table td{
+    padding:12px;
+    border:1px solid #ddd;
+    text-align:center;
+}
+
+table th{
+    background:#1e3c72;
+    color:white;
+}
+
+.contact-box{
+    text-align:center;
+}
+
+.contact-box a{
+    display:inline-block;
+    margin:10px;
+    padding:12px 20px;
+    background:#1e3c72;
+    color:white;
+    text-decoration:none;
+    border-radius:6px;
+    transition:0.3s;
+}
+
+.contact-box a:hover{
+    background:#2a5298;
+}
+
+@keyframes fadeIn{
+    from{opacity:0; transform:translateY(15px);}
+    to{opacity:1; transform:translateY(0);}
+}
+
+.rapport-box{
+    background:#f1f5f9;
+    padding:20px;
+    border-radius:8px;
+    margin-top:20px;
+}
+
+.print-btn{
+    background:#0ea5e9;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    margin-top:15px;
+}
+
+.print-btn:hover{
+    background:#0284c7;
+}
+
+
+body{
+    background: url("IMAGES/tr.jpg") no-repeat center center fixed;
+    background-size: cover; /* l'image remplit tout l'écran */
+    font-family: 'Segoe UI', sans-serif;
+}
+

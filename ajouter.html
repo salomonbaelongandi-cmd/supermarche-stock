@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ajouter Produit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>Ajouter un Produit</header>
+
+<nav>
+     <a href="index.html">Accueil</a>
+    <a href="ajouter.html">Ajouter Produit</a>
+    <a href="produits.html">Liste Produits</a>
+    <a href="Rapport.html">Rapport</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+    <h2>Formulaire Produit</h2>
+
+    <form id="productForm">
+        <input type="text" id="nom" placeholder="Nom du produit" required>
+        <input type="number" id="quantite" placeholder="Quantité" required>
+        <input type="number" id="prix" placeholder="Prix" required>
+
+        <select id="categorie">
+            <option>Alimentation</option>
+            <option>Boisson</option>
+            <option>Hygiène</option>
+        </select>
+
+        <button type="submit">Ajouter</button>
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

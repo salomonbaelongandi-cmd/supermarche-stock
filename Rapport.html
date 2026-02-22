@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rapport Général</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>Rapport pour le Patron</header>
+
+<nav>
+    <a href="index.html">Accueil</a>
+    <a href="ajouter.html">Ajouter Produit</a>
+    <a href="produits.html">Liste Produits</a>
+    <a href="Rapport.html">Rapport</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+
+    <a href="index.html" class="retour">⬅ Retour à l'accueil</a>
+
+    <h2>Rapport Général du Stock</h2>
+
+    <div class="rapport-box">
+        <p><strong>Nombre total de produits :</strong> <span id="nbProduits">0</span></p>
+        <p><strong>Quantité totale en stock :</strong> <span id="quantiteTotale">0</span></p>
+        <p><strong>Valeur totale du stock :</strong> <span id="valeurTotale">0</span> FC</p>
+    </div>
+
+    <button class="print-btn" onclick="window.print()">🖨 Imprimer le Rapport</button>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
